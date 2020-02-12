@@ -2,10 +2,15 @@
 
 console.log(1)
 var teddy = 'bear'
+console.log(sing())
 
-const sing = () => {
+function sing() {
+  console.log(`BANG`)
+}
+
+const sing2 = () => {
   console.log(`OH LA LA LA`)
 }
 
 console.log(teddy)
-console.log(sing())
+console.log(sing2())
