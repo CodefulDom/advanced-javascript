@@ -14,3 +14,38 @@ const sing2 = () => {
 
 console.log(teddy)
 console.log(sing2())
+
+var one = 1
+var one = 2
+console.log(one)
+
+greet()
+
+function greet() {
+  console.log(`hey`)
+}
+function greet() {
+  console.log(`bye`)
+}
+
+var favFood = 'grapes'
+
+var foodThoughts = () => {
+  console.log(`OG favorite food: ${favFood}`)
+  var favFood = 'fish'
+  console.log(`New Fav Food: ${favFood}`)
+}
+
+foodThoughts()
+
+function bigBro() {
+  function littleBro() {
+    return `It's me!`
+  }
+  return littleBro() /* ? */
+  function littleBro() {
+    return `No, ME!`
+  }
+}
+
+bigBro()
