@@ -1,31 +1,27 @@
 let database = [
   {
-    userName: 'codefuldom',
+    userName: 'dom',
     password: 'password'
   }
 ]
 
 let newsFeed = [
   {
-    userName: 'codefuldom',
+    user: 'dom',
     timeLine: 'So tired'
   }
 ]
 
 let userNamePrompt = prompt('What is your username?')
-console.log('%c%s', 'color: #733d00', userNamePrompt)
 
 let userPassword = prompt('Enter your password')
-console.log('%c%s', 'color: #e50000', userPassword)
 
 const checkUser = (userName, password) => {
-  if ((userName = database[0].userName && password === database[0].password)) {
-    console.log(newsFeed.timeLine)
+  if (userName === database[0].userName && password === database[0].password) {
+    console.log(newsFeed)
   } else {
     return `${userNamePrompt} your password is broken yo.`
   }
 }
 
-const checkUserResult = checkUser(userNamePrompt, userNamePrompt)
-console.log(checkUserResult)
-console.log(database)
+const checkUserResult = checkUser(userNamePrompt, userPassword)
