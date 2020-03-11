@@ -15,3 +15,5 @@ if (name === 'Greg') {
 } else if (name === 'Dom') {
   console.log(`${name} is just like 🎆!`)
 }
+
+if (!(name === 'Dom')) console.log(`Hi, my name is ${name}!`)
