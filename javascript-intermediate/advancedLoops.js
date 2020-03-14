@@ -14,3 +14,7 @@ const detailedObject = {
 for (const properties in detailedObject) {
   console.log(properties)
 }
+
+for (const item of groceries) {
+  console.log(item)
+}
