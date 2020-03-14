@@ -17,3 +17,23 @@ function condition() {
 
 let answer2 = condition()
 console.log(answer)
+
+function moveCommand(thing) {
+  let whatHappens
+  switch (thing) {
+    case 'monkey':
+      whatHappens = 'you are a 🐵'
+      break
+    case 'loved':
+      whatHappens = 'you are 😍'
+      break
+    case 'right':
+      whatHappens = 'you are a 👨🏾‍🌾'
+      break
+    default:
+      whatHappens = 'not an option'
+  }
+  return whatHappens
+}
+
+moveCommand('loved') /* ? */
