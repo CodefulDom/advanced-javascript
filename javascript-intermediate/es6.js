@@ -13,3 +13,15 @@ const ballers = {
 console.log(ballers)
 console.log(ballers.domhallan)
 console.log(ballers[name])
+
+const alpha = 'Simon'
+const beta = 'Alfred'
+const cThing = 'What is this'
+
+const newObj = {
+  alpha,
+  beta,
+  cThing
+}
+
+console.log(newObj.alpha)
