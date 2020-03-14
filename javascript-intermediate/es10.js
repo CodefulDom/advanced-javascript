@@ -10,3 +10,13 @@ console.log(jurassicParkChaos)
 
 const userEmail = '         eddytheEagle@gmail.com'
 console.log(userEmail.trimStart())
+
+const userProfiles = [
+  ['commanderTom', 23],
+  ['dom', 37],
+  ['hansel', 55]
+]
+const correctedUserProfiles = Object.fromEntries(userProfiles)
+console.log(correctedUserProfiles)
+
+const name = 'Dom'
