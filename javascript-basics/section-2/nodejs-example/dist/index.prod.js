@@ -1,0 +1,1 @@
+"use strict";var list=new Array(6e4).join("1.1").split(".");function removeItemsFromList(){list.pop()&&setTimeout(function(){removeItemsFromList()},0)}removeItemsFromList();

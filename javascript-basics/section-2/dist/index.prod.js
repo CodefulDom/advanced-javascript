@@ -1,0 +1,1 @@
+"use strict";var horse="🐴",jsEngine=function(n){return n.split(/\s+/)},result=jsEngine("const name = 'Dominique'");console.log(result);var someCalculation=function(n,e,o){return o(n,e)},add=function(n,e){return n+e},calcResult=someCalculation(2,4,add);console.log(calcResult);
